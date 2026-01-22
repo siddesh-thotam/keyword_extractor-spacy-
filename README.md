@@ -28,8 +28,7 @@ python -m spacy download en_core_web_sm
 from spacy_keyword_extractor.extractor import extract_keywords
 
 Replace this text -> 
-# text = """Natural Language Processing enables computers to understand
-human language efficiently."""
+# text = """Natural Language Processing enables computers to understand human language efficiently."""
 
 print(extract_keywords(text))
 
